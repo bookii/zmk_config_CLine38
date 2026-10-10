@@ -47,6 +47,17 @@
         };
     };
 
+    behaviors {
+        lt_mkp: lt_mkp {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            bindings = <&mo>, <&mkp>;
+
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -55,7 +66,7 @@
 &trans            &kp Z               &kp U           &kp F      &kp COMMA                                                       &kp G         &kp W  &kp R            &kp Y                &trans
 &mt LEFT_SHIFT E  &mt LEFT_CONTROL I  &mt LEFT_ALT A  &kp O      &kp MINUS                                                       &kp K         &kp T  &mt RIGHT_ALT N  &mt RIGHT_CONTROL S  &mt RIGHT_SHIFT H
 &kp L             &kp X               &kp C           &kp V      &kp Q                                                           &kp P         &kp D  &kp M            &kp J                &kp B
-                  &trans              &trans          &mkp LCLK  &lt 1 SPACE  &mt LEFT_GUI BACKSPACE    &mt RIGHT_GUI BACKSPACE  &lt 2 RETURN                          &mo 4
+                  &trans              &trans          &lt_mkp 5 LCLK  &lt 1 SPACE  &mt LEFT_GUI BACKSPACE    &mt RIGHT_GUI BACKSPACE  &lt 2 RETURN                          &mo 4
             >;
         };
 
@@ -92,6 +103,15 @@
 &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &trans  &trans  &trans  &trans  &trans
 &trans          &trans        &trans        &trans        &trans                                  &trans  &trans  &trans  &trans  &trans
                 &trans        &trans        &trans        &trans        &trans    &studio_unlock  &trans                  &trans
+            >;
+        };
+
+        scroll {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans   &trans    &trans  &trans                  &trans
             >;
         };
     };
