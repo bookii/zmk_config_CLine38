@@ -14,10 +14,10 @@ layers:
   - {t: E, h: LEFT SHIFT}
   - {t: I, h: LEFT CONTROL}
   - {t: A, h: LEFT ALT}
-  - {t: O, h: backspace}
+  - {t: O, h: scroll_backspace}
   - '-'
   - K
-  - {t: T, h: backspace}
+  - {t: T, h: scroll_backspace}
   - {t: N, h: RIGHT ALT}
   - {t: S, h: RIGHT CONTROL}
   - {t: H, h: RIGHT SHIFT}
@@ -33,7 +33,7 @@ layers:
   - B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '&mkp LCLK', h: scroll}
+  - '&mkp LCLK'
   - {t: SPACE, h: punctuation}
   - {t: BACKSPACE, h: LEFT GUI}
   - {t: BACKSPACE, h: RIGHT GUI}
@@ -195,46 +195,7 @@ layers:
   - '&studio_unlock'
   - {t: ▽, type: trans}
   - {type: held}
-  scroll:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  backspace:
+  scroll_backspace:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
