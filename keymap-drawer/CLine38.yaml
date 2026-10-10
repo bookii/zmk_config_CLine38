@@ -14,10 +14,10 @@ layers:
   - {t: E, h: LEFT SHIFT}
   - {t: I, h: LEFT CONTROL}
   - {t: A, h: LEFT ALT}
-  - O
+  - {t: O, h: backspace}
   - '-'
   - K
-  - T
+  - {t: T, h: backspace}
   - {t: N, h: RIGHT ALT}
   - {t: S, h: RIGHT CONTROL}
   - {t: H, h: RIGHT SHIFT}
@@ -248,7 +248,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
