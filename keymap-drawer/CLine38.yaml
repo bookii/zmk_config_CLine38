@@ -282,7 +282,7 @@ combos:
   k: LANGUAGE 2
 - p: [17, 16]
   k: LANGUAGE 1
-- p: [1, 2]
+- p: [1, 3]
   k: ESCAPE
-- p: [7, 8]
+- p: [8, 6]
   k: Sft+Gui+4
