@@ -46,9 +46,9 @@ layers:
   - Sft+/
   - .
   - {t: ▽, type: trans}
-  - '['
+  - Sft+[
   - Sft+'
-  - ']'
+  - Sft+]
   - {t: ▽, type: trans}
   - Sft+3
   - Sft+\
@@ -66,9 +66,9 @@ layers:
   - Sft+7
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+,
+  - '['
   - ''''
-  - Sft+.
+  - ']'
   - Sft+\
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
