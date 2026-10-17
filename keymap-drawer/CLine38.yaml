@@ -235,15 +235,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [32, 12]
-  k: '&mkp MCLK'
-- p: [32, 13]
-  k: '&mkp RCLK'
 - p: [12, 13]
   k: LANGUAGE 2
 - p: [17, 16]
   k: LANGUAGE 1
-- p: [1, 3]
+- p: [1, 2]
   k: ESCAPE
-- p: [8, 6]
+- p: [11, 12, 13, 10]
   k: Sft+Gui+4
