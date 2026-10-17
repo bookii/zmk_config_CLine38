@@ -62,10 +62,10 @@
 
         punctuation {
             bindings = <
-&trans            &kp LS(NUMBER_2)   &kp LS(NUMBER_1)  &kp LS(SLASH)  &kp PERIOD                       &trans   &kp LEFT_BRACKET  &kp LS(SQT)     &kp RIGHT_BRACKET  &trans
-&kp LS(NUMBER_3)  &kp LS(BACKSLASH)  &kp GRAVE         &kp SLASH      &kp LS(MINUS)                    &trans   &kp LS(NUMBER_9)  &kp LS(SEMI)    &kp LS(NUMBER_0)   &kp SEMICOLON
-&kp LS(NUMBER_4)  &kp LS(GRAVE)      &kp LS(NUMBER_6)  &kp LS(N7)     &trans                           &trans   &kp LS(COMMA)     &kp APOSTROPHE  &kp LS(PERIOD)     &kp LS(BACKSLASH)
-                  &trans             &trans            &trans         &trans         &trans    &trans  &kp TAB                                    &trans
+&trans            &kp LS(NUMBER_2)   &kp LS(NUMBER_1)  &kp LS(SLASH)  &kp PERIOD                       &trans   &kp LS(LEFT_BRACKET)  &kp LS(SQT)     &kp LS(RIGHT_BRACKET)  &trans
+&kp LS(NUMBER_3)  &kp LS(BACKSLASH)  &kp GRAVE         &kp SLASH      &kp LS(MINUS)                    &trans   &kp LS(NUMBER_9)      &kp LS(SEMI)    &kp LS(NUMBER_0)       &kp SEMICOLON
+&kp LS(NUMBER_4)  &kp LS(GRAVE)      &kp LS(NUMBER_6)  &kp LS(N7)     &trans                           &trans   &kp LEFT_BRACKET      &kp APOSTROPHE  &kp RIGHT_BRACKET      &kp LS(BACKSLASH)
+                  &trans             &trans            &trans         &trans         &trans    &trans  &kp TAB                                        &trans
             >;
         };
 
