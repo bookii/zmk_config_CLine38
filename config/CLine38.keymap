@@ -53,10 +53,10 @@
 
         default {
             bindings = <
-&trans            &kp Z               &kp U           &kp F  &kp COMMA                            &kp G         &kp W  &kp R            &kp Y                &trans
-&mt LEFT_SHIFT E  &mt LEFT_CONTROL I  &mt LEFT_ALT A  &kp O  &kp MINUS                            &kp K         &kp T  &mt RIGHT_ALT N  &mt RIGHT_CONTROL S  &mt LEFT_SHIFT H
-&mt LEFT_GUI L    &kp X               &kp C           &kp V  &trans                               &trans        &kp D  &kp M            &lt 6 J              &lt 5 B
-                  &trans              &trans          &kp Q  &lt 1 SPACE  &kp BACKSPACE    &kp P  &lt 2 RETURN                          &mo 4
+&trans            &kp Z               &kp U           &kp F  &kp COMMA                            &kp G         &kp W    &kp R            &kp Y                &trans
+&mt LEFT_SHIFT E  &mt LEFT_CONTROL I  &mt LEFT_ALT A  &kp O  &kp MINUS                            &kp K         &lt 6 T  &mt RIGHT_ALT N  &mt RIGHT_CONTROL S  &mt LEFT_SHIFT H
+&mt LEFT_GUI L    &kp X               &kp C           &kp V  &trans                               &trans        &kp D    &kp M            &kp J                &lt 5 B
+                  &trans              &trans          &kp Q  &lt 1 SPACE  &kp BACKSPACE    &kp P  &lt 2 RETURN                            &mo 4
             >;
         };
 
