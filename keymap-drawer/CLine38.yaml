@@ -33,9 +33,9 @@ layers:
   - {t: B, h: mouse}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BACKSPACE
-  - {t: SPACE, h: punctuation}
   - Q
+  - {t: SPACE, h: punctuation}
+  - BACKSPACE
   - P
   - {t: RETURN, h: number}
   - bluetooth
