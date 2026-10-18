@@ -29,7 +29,7 @@ layers:
   - {t: ▽, type: trans}
   - D
   - M
-  - J
+  - {t: J, h: scroll}
   - {t: B, h: mouse}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -263,7 +263,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
