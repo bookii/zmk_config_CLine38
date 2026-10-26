@@ -69,13 +69,13 @@ layers:
   - '['
   - ''''
   - ']'
-  - Sft+\
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+7
   - TAB
   - {t: ▽, type: trans}
   number:
