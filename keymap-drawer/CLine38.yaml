@@ -63,7 +63,7 @@ layers:
   - Sft+4
   - Sft+`
   - Sft+6
-  - Sft+7
+  - Sft+5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
